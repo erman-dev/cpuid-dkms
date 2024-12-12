@@ -1,0 +1,1 @@
+savedcmd_/home/vagrant/cpuid/cpuid.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/vagrant/cpuid/cpuid.ko /home/vagrant/cpuid/cpuid.o /home/vagrant/cpuid/cpuid.mod.o
